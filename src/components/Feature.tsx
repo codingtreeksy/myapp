@@ -1,10 +1,10 @@
 import React from "react";
 import { TestPros } from "../../types/Test";
 
-const Test= (props:TestPros)=>{
+const Feature= (props:TestPros)=>{
     return (
         <div>
-            <h1>수정</h1>
+            <h1>새로운 파일 추가</h1>
             {props.info.name} <br/>
             {props.info.age} <br/>
 
@@ -12,4 +12,4 @@ const Test= (props:TestPros)=>{
     );
 }
 
-export default Test;
+export default Feature;
